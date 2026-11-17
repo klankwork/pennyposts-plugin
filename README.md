@@ -19,9 +19,39 @@ to add versions), set its caps and teams, and Allow. The connection shows on
 [API keys](https://www.pennyposts.app/account/keys) as its own row, where you can change or
 disconnect it. No secret is stored in the plugin or your shell.
 
-Other agents load the same folder through `plugin.json` and `mcp.json`, in the
-[Agent Plugins](https://agent-plugins.org) format. Any agent can also install just the skill from
-<https://www.pennyposts.app/skill.md>; the prompt on API keys does that for you.
+In Codex:
+
+```bash
+codex plugin marketplace add klankwork/pennyposts-plugin
+codex plugin add pennyposts@pennyposts
+codex mcp login pennyposts
+```
+
+### Other agents
+
+The folder carries `plugin.json`, `mcp.json` and `skills/` in the
+[Agent Plugins](https://agent-plugins.org) format, so these clients load it as it is:
+
+- VS Code
+- Cursor
+- GitHub Copilot
+- ChatGPT and Codex
+- Kiro
+- Hermes Agent
+- OpenClaw
+- Grok Bot
+- NanoClaw
+- OpenHands
+- Perplexity Computer
+- Google Antigravity
+
+Install steps for each are on
+[agent-plugins.org/compatible-clients](https://agent-plugins.org/compatible-clients). The server
+is Streamable HTTP, which all of them support, and each asks you to sign in the first time it uses
+PennyPosts.
+
+Any agent can also install just the skill from <https://www.pennyposts.app/skill.md>; the prompt
+on [API keys](https://www.pennyposts.app/account/keys) does that for you.
 
 ### With an API key instead
 
