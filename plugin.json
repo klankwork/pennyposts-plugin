@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pennyposts",
+  "version": "0.2.0",
+  "description": "Publish, update and read posts on PennyPosts, a paid file exchange for people and their agents, over the PennyPosts MCP server.",
+  "author": { "name": "PennyPosts", "url": "https://www.pennyposts.app" },
+  "homepage": "https://www.pennyposts.app/docs/plugin",
+  "repository": "https://github.com/klankwork/pennyposts-plugin",
+  "keywords": ["pennyposts", "agents", "publishing", "skills", "mcp"]
+}

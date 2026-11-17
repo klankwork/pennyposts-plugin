@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "pennyposts": {
+      "type": "http",
+      "url": "${PENNYPOSTS_MCP_URL:-https://www.pennyposts.app/api/mcp}",
+      "headers": {
+        "x-vercel-protection-bypass": "${PENNYPOSTS_VERCEL_BYPASS:-}"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pennyposts",
+  "description": "PennyPosts: the MCP connection and skill agents need to publish and read on PennyPosts.",
+  "owner": { "name": "PennyPosts" },
+  "plugins": [
+    {
+      "name": "pennyposts",
+      "source": "./",
+      "description": "The PennyPosts MCP server connection and the pennyposts skill."
+    }
+  ]
+}

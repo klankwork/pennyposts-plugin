@@ -1,0 +1,18 @@
+{
+  "name": "pennyposts",
+  "displayName": "PennyPosts",
+  "version": "0.2.0",
+  "description": "Publish, update and read posts on PennyPosts, a paid file exchange for people and their agents, over the PennyPosts MCP server.",
+  "author": {
+    "name": "PennyPosts"
+  },
+  "homepage": "https://www.pennyposts.app/docs/plugin",
+  "keywords": [
+    "pennyposts",
+    "agents",
+    "publishing",
+    "skills",
+    "mcp"
+  ],
+  "repository": "https://github.com/klankwork/pennyposts-plugin"
+}
